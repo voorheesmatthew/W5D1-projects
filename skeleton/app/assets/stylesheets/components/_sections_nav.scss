@@ -1,0 +1,19 @@
+.section-nav-links {
+  display: flex;
+  font-size: 14px;
+}
+
+.section-nav {
+  display: flex;
+  justify-content: center;
+}
+
+.section-nav-links li {
+  padding: 10px;
+}
+
+.section-nav-links li:hover {
+  padding: 10px;
+  text-decoration: underline;
+  color: #888;
+}

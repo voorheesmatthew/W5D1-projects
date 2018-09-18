@@ -1,0 +1,55 @@
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-nav > ul,
+.right-nav > ul {
+  display: flex;
+  // align-items: center;
+}
+
+.left-nav > ul > li {
+  // float: left;
+  margin-left: 20px;
+  padding: 20px 15px;
+  font-size: 15px;
+}
+
+.right-nav > ul {
+  // float: right;
+}
+
+.right-nav > ul > li {
+  // float: left;
+  margin-left: 5px;
+  margin-top: 10px;
+  color: #fff;
+  padding: 10px 10px;
+  font-size: 15px;
+  background-color: #6288a5;
+  border-radius: 5px;
+}
+
+.right-nav > ul > li:last-of-type {
+  position: relative;
+  margin-right: 10px;
+  background-color: transparent;
+}
+
+.left-nav > ul > li:hover,
+.right-nav > ul > li:last-of-type:hover {
+  color: #888;
+}
+
+.left-nav span {
+
+}
+
+.right-nav i {
+  color: black;
+}
+
+.right-nav i:hover {
+  // color: #888;
+}

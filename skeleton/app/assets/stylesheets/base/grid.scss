@@ -1,0 +1,38 @@
+.col {
+  float: left;
+  box-sizing: border-box;
+}
+
+/* Attribute selector targeting all elements
+with a class attribute containing 'col-' */
+[class*='col-'] {
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+
+[class*='col-']:last-of-type {
+  padding-right: 0px;
+}
+
+.col-1-2 {
+  width: 50%;
+}
+
+.col-1-4 {
+  width: 25%;
+}
+
+@media all and (max-width: 1050px) {
+  [class*='col-'] {
+    width: 100%;
+  }
+  .section-nav-links {
+    display: none !important;
+  }
+  .language-nav {
+    display: none !important;
+  }
+  .right-nav {
+    display: none !important;
+  }
+}
